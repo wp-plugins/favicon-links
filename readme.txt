@@ -10,7 +10,8 @@ License: GPL2
 Adds favicons to links in posts to give them nice look.
 
 == Installation ==
-Install from plugin directory or download files from https://github.com/whyte624/wordpress-favicon-links and put them into 'plugins' directory of your website.
+1. Upload `favicon-links.php` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Description ==
 The plugin adds favicons of websites to links which they lead to.
@@ -29,12 +30,12 @@ Report issues or/and contribute here: https://github.com/whyte624/wordpress-favi
 * Small padding after favicon for nicer look
 * Suppress favicon for specific link
 
-= 1.1 =
+= 1.0 =
 * Basic functionality
 
 == Screenshots ==
 1. Example of Favicon Links plugin output
-2. Example of Favicon Links plugin output
+2. Favicon Links plugin output
 
 == Frequently Asked Questions ==
 

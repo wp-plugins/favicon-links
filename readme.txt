@@ -4,7 +4,7 @@ Tags: favicon, link, a, href, url, google, image, decoration
 Stable tag: trunk
 Donate link: http://whyte624.ru
 Requires at least: 4.0
-Tested up to: 4.1
+Tested up to: 4.1.1
 License: GPL2
 
 Adds favicons to links in posts to give them nice look.
@@ -25,6 +25,9 @@ Uses Google S2 Favicon service.
 Report issues or/and contribute here: https://github.com/whyte624/wordpress-favicon-links.
 
 == Changelog ==
+= 1.2 =
+* 'display: inline-block' for favicons, since some themes make images inside a post 'display: block;'
+
 = 1.1 =
 * Suppress warnings for wrong html markup
 * Small padding after favicon for nicer look

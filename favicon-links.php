@@ -4,7 +4,7 @@
  * Plugin Name: Favicon Links
  * Plugin URI: http://whyte624.ru/prj/wordpress-favicon-links
  * Description: Adds favicons to all links in any post
- * Version: 1.1
+ * Version: 1.2
  * Author: Andrei Sozonov
  * Author URI: http://whyte624.ru/
  * License: GPL2
@@ -38,7 +38,7 @@ function favicon_links_the_content($content)
 
             $img = $html->createElement('img');
             $img->setAttribute('src', 'http://www.google.com/s2/favicons?domain=' . $urlParts['host']);
-            $img->setAttribute('style', 'padding-right: 4px;');
+            $img->setAttribute('style', 'display: inline-block; padding-right: 4px;');
             $a->insertBefore($img, $a->firstChild);
         }
 
